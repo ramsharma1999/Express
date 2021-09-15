@@ -1,4 +1,4 @@
-const employees = [{
+const user = [{
   "id": 1,
   "first_name": "Eleonora",
   "last_name": "Hinzer",
@@ -49,4 +49,4 @@ const employees = [{
   "last_name": "Stambridge",
   "email": "cstambridge9@china.com.cn"
 }]
-module.exports = employees
+module.exports = user
