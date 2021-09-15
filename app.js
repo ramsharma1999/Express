@@ -1,13 +1,13 @@
 const express =require('express')
-const employees = require('./employees')
+const user = require('./user')
 const app = express()
 
-app.get('/employees',(req,res)=>{
-res.json((employees))
+app.get('/user',(req,res)=>{
+res.json((user))
 })
-app.get('/employees/:id',(req,res)=>{
+app.get('/user/:id',(req,res)=>{
     let id = req.params.id
-    res.json((employees[id-1]))
+    res.json((user[id-1]))
     })
 
 app.listen(5001, () =>{
