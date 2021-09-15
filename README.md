@@ -6,3 +6,7 @@ This is written in nodejs by using express framework. Here are two file one is a
 1. The app is run through the following command in the terminal window:
 - node app.js
 2. For this prequisites is Nodejs should be installed.
+
+### Run Apis:
+- localhost/5001/employees
+- localhost/5001/employees/{id}
